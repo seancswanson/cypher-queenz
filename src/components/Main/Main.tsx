@@ -8,7 +8,7 @@ interface MainProps { }
 const Main: FC<MainProps> = () => (
   <div className="Main">
     <div className="hero-container">
-      <img src={process.env.PUBLIC_URL + '/cypher-queenz-logo-cropped.png'} className="cypher-queenz-logo" alt="logo" />
+      <img src={process.env.PUBLIC_URL + '/cypher-queenz-logo-transparent.png'} className="cypher-queenz-logo" alt="logo" />
       <h1>
         Cypher Queenz
       </h1>
