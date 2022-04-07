@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .cypher-queenz-logo {
@@ -7,18 +8,7 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  font-size: 35px;
+  font-weight: 900;
 }
-
-.App-link {
-  color: #61dafb;
-}
-

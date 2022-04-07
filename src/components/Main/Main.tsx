@@ -3,25 +3,25 @@ import './Main.css';
 
 import About from '../About/About.tsx';
 
-interface MainProps {}
+interface MainProps { }
 
 const Main: FC<MainProps> = () => (
   <div className="Main">
-    <header className="App-header">
-        <img src={process.env.PUBLIC_URL + '/cypher-queenz-logo-cropped.png'} className="cypher-queenz-logo" alt="logo" />
-        <p>
-          Cypher Queenz
-        </p>
-        <a
-          className="App-link"
-          href="https://www.instagram.com/cypherqueenz/?hl=en"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          IG: @cypherqueenz
-        </a>
-      </header>
-      <About />
+    <div className="hero-container">
+      <img src={process.env.PUBLIC_URL + '/cypher-queenz-logo-cropped.png'} className="cypher-queenz-logo" alt="logo" />
+      <h1>
+        Cypher Queenz
+      </h1>
+      <a
+        className="hero-button"
+        href="https://www.instagram.com/cypherqueenz/?hl=en"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        IG: @cypherqueenz
+      </a>
+    </div>
+    <About />
   </div>
 );
 
