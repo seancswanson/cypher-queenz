@@ -1,1 +1,41 @@
-.Navbar {}
+.Navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .Navbar {
+        display: none;
+    }
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+            background: black;
+                height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.nav-links a {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: all .2s ease;
+    color: white;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 4px solid white;
+}
+
