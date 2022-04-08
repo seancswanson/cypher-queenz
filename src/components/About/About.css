@@ -34,6 +34,7 @@ p {
 }
 
 .cypher-queenz-about-pose {
-  min-width: 600px;
-  width: 75%;
+  max-width: 600px;
+  width: 100%;
+  margin: 15px 0;
 }
