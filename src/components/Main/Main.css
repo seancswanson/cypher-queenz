@@ -26,11 +26,14 @@
 }
 
 #myVideo {
-  max-width: 900px;
-  width: 100%;
-  filter: drop-shadow(16px 16px black);
-  border: 2px solid black;
-  border-radius: 2px;
+max-width: 900px;
+width: 90%;
+min-height: 200px;
+max-height: 500px;
+filter: drop-shadow(16px 16px black);
+border: 2px solid black;
+object-fit: cover;
+border-radius: 2px;
 }
 
 h1 {

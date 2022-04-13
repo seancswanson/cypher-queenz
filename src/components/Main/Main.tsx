@@ -11,7 +11,7 @@ const Main: FC<MainProps> = () => (
       <div className="hero-logo-container">
         <img src={process.env.PUBLIC_URL + "/cypher-queenz-logo-transparent.png"} className="cypher-queenz-logo" alt="logo" />
       </div>
-      <video autoPlay muted loop id="myVideo">
+      <video autoPlay playsInline muted loop id="myVideo">
         <source src={process.env.PUBLIC_URL + "/cypher-queenz-video-compressed.mp4"} type="video/mp4" />
       </video>
       <h1>@CypherQueenz</h1>
