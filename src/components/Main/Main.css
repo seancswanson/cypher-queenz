@@ -3,6 +3,11 @@
   grid-template-columns: 1fr;
   grid-template-rows: calc(100vh - 60px) 1fr;
 }
+@media (max-width:600px) {
+.Main {
+    grid-template-rows: calc(100vh + 200px) 1fr;
+}
+}
 
 .hero-container {
   background-color: #f7fffe;
