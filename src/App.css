@@ -13,10 +13,16 @@ width: 90%;
 
 h1, h2 {
   font-family: "Stretch Pro";
+  
 }
 
 h2 {
   font-size: 35px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  background: #282c34;
+  color: white;
+  font-family: "Stretch Pro";
 }
 

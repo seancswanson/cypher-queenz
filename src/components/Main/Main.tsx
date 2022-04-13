@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import "./Main.css";
 
 import About from "../About/About.tsx";
+import Partners from "../Partners/Partners.tsx";
 
 interface MainProps {}
 
@@ -26,6 +27,7 @@ const Main: FC<MainProps> = () => (
       </div>
     </div>
     <About />
+    <Partners />
   </main>
 );
 

@@ -1,0 +1,42 @@
+.Partners {
+  padding: 65px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7fffe;
+    background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+    -webkit-clip-path: polygon(0 0, 100% 84px, 100% 100%, 0px 100%);
+  clip-path:polygon(0 0, 100% 84px, 100% 100%, 0px 100%);
+  align-items: center;
+}
+
+.partners-logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+}
+
+.partners-logo-container > a {
+  max-width: 200px;
+}
+
+.partners-logo-container > a > img {
+  width: 100%;
+}
+
+.zulu-logo {
+
+}
+
+.goodfoot-logo {
+  background: black;
+}
+
+.partner-title {
+  font-family: "Stretch Pro";
+  margin-bottom: 1em;
+  font-size: 20px;
+  font-weight: 500;
+  width: 75%;
+}
