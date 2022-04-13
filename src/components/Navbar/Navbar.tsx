@@ -5,15 +5,24 @@ interface NavbarProps {}
 
 const Navbar: FC<NavbarProps> = () => (
   <header className="Navbar">
-    <nav className="nav-container">
-      <div className="nav-logo"></div>
-      <div className="nav-links">
+      <input type="checkbox" id="navbar-check" />
+      <div className="navbar-header">
+        <div className="navbar-title">CypherQueenz</div>
+      </div>
+      <div className="navbar-btn">
+        <label htmlFor="navbar-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div className="navbar-links">
         <a href="#mission">Mission</a>
-        <a href="#vission">Vision</a>
+        <a href="#vision">Vision</a>
         <a href="#history">History</a>
         <a href="#values">Values</a>
       </div>
-    </nav>
   </header>
 );
 
