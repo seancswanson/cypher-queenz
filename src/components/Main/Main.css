@@ -5,8 +5,8 @@
 }
 
 .hero-container {
-    background-color: #f7fffe;
-    background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+  background-color: #f7fffe;
+  background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,26 +16,31 @@
   padding: 10px;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100.00% 88.14%, 0px 95%);
   clip-path: polygon(0px 0px, 100% 0px, 100.00% 88.14%, 0px 95%);
-  
+
 }
 
 .hero-links-container {
   display: flex;
-  justify-content: center;
-  width: 50%;
+  justify-content: space-evenly;
+  width: 200px;
 }
 
 #myVideo {
   max-width: 900px;
   width: 100%;
   filter: drop-shadow(16px 16px black);
-    border: 2px solid black;
-    border-radius: 2px;
+  border: 2px solid black;
+  border-radius: 2px;
 }
 
 h1 {
   color: black;
   text-shadow: 5px 3px rgb(181, 181, 181);
+  margin-bottom: 2px;
+}
+
+h2 {
+  max-width: 915px;
 }
 
 .hero-button {
